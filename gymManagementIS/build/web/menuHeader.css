@@ -1,0 +1,42 @@
+
+    header {
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+    }
+  
+    .horizontal-menu li {
+      margin-right: 10px;
+    }
+  
+    .horizontal-menu li a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #333;
+    }
+  
+    .horizontal-menu li a:hover {
+      background-color: #ddd;
+    }
+  
+    .logout-form button {
+      padding: 8px 12px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .logout-form button:hover {
+      background-color: #555;
+    }

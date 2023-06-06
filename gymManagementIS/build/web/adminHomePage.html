@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gym Management Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .menu-container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-top: 50px;
+    }
+
+    .menu-container h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .menu-container ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu-container li {
+      margin-bottom: 10px;
+    }
+
+    .menu-container a {
+      display: block;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    .menu-container a:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <h2>Gym Management Menu</h2>
+	<h2><a href="logout.jsp">Logout</a></h2>
+    <ul>
+      <li><a href="add_contract_clients.html">Add Client: Contract Client</a></li>
+      <li><a href="add_off_contract_clients.html">Add Client: Off-Contract Client</a></li>
+      <li><a href="viewContractClientBrief.jsp">View Client: Contract Clients</a></li>
+      <li><a href="viewOffContractClientBrief.jsp">View Client: Off-Contract Clients</a></li>
+      <li><a href="updateContractClientBrief.jsp">Update Client: Contract Client</a></li>
+      <li><a href="updateOffContractClientBrief.jsp">Update Client: Off-Contract Client</a></li>
+    </ul>
+  </div>
+</body>
+</html>

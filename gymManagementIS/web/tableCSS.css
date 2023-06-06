@@ -1,0 +1,51 @@
+            table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+table th,
+table td {
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Search Bar Styles */
+.search-bar {
+  margin-bottom: 10px;
+}
+
+.search-bar input[type="text"] {
+  width: 200px;
+  padding: 5px;
+}
+
+/* Color Styles */
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #e6f2ff;
+}
+
+/* Example Color Classes */
+.color-red {
+  background-color: #ffcccc;
+}
+
+.color-blue {
+  background-color: #cceeff;
+}
+
+.color-green {
+  background-color: #ccffcc;
+}
